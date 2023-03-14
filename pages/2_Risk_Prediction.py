@@ -1,5 +1,6 @@
 import pickle
 import streamlit as st
+import sklearn 
 
 lr_model = pickle.load(open('lr_model.pkl', 'rb'))
 svc_model = pickle.load(open('svc_model.pkl', 'rb'))
