@@ -3,7 +3,7 @@ import seaborn as sns
 import streamlit as st
 import matplotlib.pyplot as plt
 
-dataset = pd.read_csv('../template_data.csv')
+dataset = pd.read_csv('template_data.csv')
 st.title('Data Visualization')
 st.dataframe(dataset)
 
